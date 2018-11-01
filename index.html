@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+  <link rel="stylesheet" href="css.css" />
+ </head>  
+<body onLoad = "Timer();">
+	<div id="top">
+    	<div id="timer" class="head">Таймер<br/> 01:00</div>
+        <div id="level" class="head">Уровень <br/> 1</div>
+        <div id="point" class="head">Очки <br/> 0</div>
+    </div>
+    
+    <div id="mult">
+    
+    </div>
+    
+    <div id="vary"> 
+    	<div>
+            <input type="button" name="btn" id="btn0" class="btn" onClick="Check(this.id)">
+            <input type="button" name="btn" id="btn1" class="btn" onClick="Check(this.id)">
+            <input type="button" name="btn" id="btn2" class="btn" onClick="Check(this.id)">
+            <input type="button" name="btn" id="btn3" class="btn" onClick="Check(this.id)">
+            <input type="button" name="btn" id="btn4" class="btn" onClick="Check(this.id)">
+        </div>
+    </div>
+<script src="js.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+	background: url(732888246.jpg) repeat;
+	}
+#top {
+	width: 900px;
+	height: 60px;
+	margin: 0 auto;
+	background: #0237cf;
+	padding-top: 10px;
+	border-radius: 40px;
+	}
+.head {
+	display: inline-block;
+	width: 296px;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	vertical-align:top;
+	}
+#mult {
+	color: #0237cf;
+	text-align:center;
+	font-size: 150px;
+	font-weight: bold;
+	margin-top: 70px;
+	}
+#vary > div {
+	width: 600px;
+	margin: 70px auto 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	}
+.btn {
+	width: 100px;
+	height: 100px;
+	color: #0237cf;
+	font-size: 50px;
+	font-weight: bold;
+	background: null;
+	}
