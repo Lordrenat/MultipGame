@@ -1,3 +1,9 @@
+var a;
+var b;
+var mltp;
+var level = 1;
+var point = 0;
+
 function Timer() {
         var j = 59;     
         var idInt = setInterval(function() {
@@ -8,18 +14,12 @@ function Timer() {
             document.getElementById("timer").innerHTML = "Таймер <br/>00:"+j;
             if (j == 0) {
                 clearInterval(idInt);
-                alert("Время вышло!!! Ваш результат - " + ". Перезагрузите страничку");
+                alert("Время вышло!!! Ваш результат - " + point + ". Для начала новой игры перезагрузите страничку");
             }
             j = j - 1;  
         }, 1000);
     }
 	
-
-var a;
-var b;
-var mltp;
-var level = 1;
-var point = 0;
 
 function Top(){
 	document.getElementById("level").innerHTML = "Уровень <br/>"+level;
@@ -43,13 +43,13 @@ function Multi() {
   		return Math.random() - 0.5;
 	});
 	for (var i = 0; i<5; i++) {
-		document.getElementById("btn"+i).value = mas[i];
+		document.getElementById("btn"+i).innerHTML = mas[i];
 	}
 }
 	window.addEventListener('load', Multi, false);
 
 function Check(val) {
-	if (document.getElementById(val).value == mltp){
+	if (document.getElementById(val).innerHTML == mltp){
 		alert('Правильно');
 		level++;
 		point = point + 100;
