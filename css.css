@@ -1,13 +1,13 @@
 body {
-	background: linear-gradient(to bottom left, #00049e, #6f0000);
+	background: linear-gradient(to bottom left, #0005ba, #860101);
 	color: #fff;
 	height: 100vh;
 	}
 #top {
 	width: 900px;
 	height: 60px;
-	margin: 30px auto 0;
-	background: linear-gradient(to bottom left, #6f0000, #00049e);
+	margin: 20px auto 0;
+	background: linear-gradient(to bottom left, #860101, #0005ba);
 	padding: 10px 0 10px 0;
 	border: 1px solid black;
 	border-radius: 40px;
@@ -29,14 +29,14 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 520px;
-	height: 220px;
-	font-size: 150px;
+	width: 505px;
+	height: 205px;
+	font-size: 130px;
 	font-weight: bold;
-	margin: 70px auto;
+	margin: 50px auto;
 	border: 1px solid black;
 	border-radius: 50%;
-	background: linear-gradient(to bottom left, #6f0000, #00049e);
+	background: linear-gradient(to bottom left, #860101, #0005ba);
 	box-shadow:1px 1px 14px 1px rgba(0,0,0,0.73);
 	}
 #vary > div {
@@ -52,14 +52,28 @@ body {
 	color: #fff;
 	font-size: 50px;
 	font-weight: bold;
-	background: linear-gradient(to bottom left, #6f0000, #00049e);
+	background: linear-gradient(to bottom left, #860101, #0005ba);
 	box-shadow:1px 1px 14px 1px rgba(0,0,0,0.73);
 	border-radius: 50%;
 	border: 1px solid black;
 	outline: none;
 	}
 .btn:hover {
-	background: linear-gradient(to bottom left, #00049e, #6f0000);
+	background: linear-gradient(to bottom left, #0005ba, #860101);
 }
 .btn:active {
 	box-shadow: none;
+}
+
+#check {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0 auto 20px;
+	width: 170px;
+	border: 1px solid black;
+	box-shadow:1px 1px 14px 1px rgba(0,0,0,0.73);
+	background: linear-gradient(to bottom left, #860101, #0005ba);
+	height: 30px;
+	padding-top: 7px;
+}
