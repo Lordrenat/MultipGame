@@ -2,10 +2,10 @@
 <html>
  <head>
   <meta charset="UTF-8">
-<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+  <script src="js.js"></script>
   <link rel="stylesheet" href="css.css" />
  </head>  
-<body onLoad = "Timer();">
+<body>
 	<div id="top">
     	<div id="timer" class="head">Таймер <br/> 01:00</div>
         <div id="level" class="head">Уровень <br/> 1</div>
@@ -16,16 +16,18 @@
     
     </div>
     
-    <p></p>
+
     <div id="vary"> 
+        <p id="check"></p>
     	<div>
-            <button id="btn0" class="btn" onClick="Check(this.id)"></button>
-            <button id="btn1" class="btn" onClick="Check(this.id)"></button>
-            <button id="btn2" class="btn" onClick="Check(this.id)"></button>
-            <button id="btn3" class="btn" onClick="Check(this.id)"></button>
-            <button id="btn4" class="btn" onClick="Check(this.id)"></button>
+            <button id="btn0" class="btn"></button>
+            <button id="btn1" class="btn"></button>
+            <button id="btn2" class="btn"></button>
+            <button id="btn3" class="btn"></button>
+            <button id="btn4" class="btn"></button>
         </div>
     </div>
-<script src="js.js"></script>
+
 </body>
 </html>
+
